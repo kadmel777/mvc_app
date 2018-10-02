@@ -1,0 +1,17 @@
+<html>
+<head>
+<%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+</head>
+
+<body>
+<div class="wrapper">
+    <div class="menu" style="width:25%">
+        <%= render "shared/menu"%>
+    </div>
+    <div class="container" style="">
+        <%= render template: @view%>    
+    </div>
+</div>
+</body>
+
+</html>
