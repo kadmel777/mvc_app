@@ -86,3 +86,10 @@ th, td {
     -webkit-transform: translateY(-50%);
     transform: translateY(-50%);
 }
+
+.curr-session{
+    display: block;
+    padding: 5px;
+    float:right;
+    clear: both;
+}

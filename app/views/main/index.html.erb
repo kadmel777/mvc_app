@@ -4,11 +4,16 @@
 </head>
 
 <body>
-<div>
+
+<div class="curr-session">
+  <div>
+    <strong><%=current_admin.email%></strong>
+  </div>
   <button sytle="float:rigth">
   <%= link_to('Logout', destroy_admin_session_path, method: :delete) %>  
   </button>
 </div>
+<br>
 <div class="wrapper">
     <div class="menu" style="width:25%">
         <%= render "shared/menu"%>
