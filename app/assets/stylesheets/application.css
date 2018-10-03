@@ -13,6 +13,10 @@
  *= require_tree .
  *= require_self
  */
+
+body {
+    font-family: "Helvetica"; 
+}
  .wrapper {
     display:flex;    
 }
@@ -26,9 +30,12 @@ ul{
     border-radius: 10px;
 }
 .container{
-    padding: 20px;
     width: 100%;
-    margin-left: 5px;
+    height: 480px;    
+    padding: 30px;     
+    border: 1px solid rgb(214, 202, 202);
+    color: rgb(214, 202, 202);
+    
 }
 
 li{
@@ -63,4 +70,19 @@ tr:nth-last-of-type(odd) {
 th, td {
     padding: 10px;
     text-align: left;
+}
+
+.pd {
+
+}
+
+.dashboard {
+    text-align: center;
+    position: relative;
+    top: 50%;
+    font-size: 3.9em;
+    font-weight: 900;
+    -ms-transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
 }
