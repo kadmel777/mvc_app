@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  resources :copies
   devise_for :admins
   resources :publications
   resources :authors
